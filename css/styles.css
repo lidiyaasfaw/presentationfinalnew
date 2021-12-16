@@ -1,0 +1,442 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+/*================================
+  GENERAL STYLES
+==================================*/
+
+*{
+    box-sizing:border-box;
+    font-family:"droid-serif",serif;
+    font-weight:400px;
+    -webkit-font-smoothing:antialised;
+    -webkit-text-size-adjust:100%;
+     margin:0;
+     padding:0;
+     line-height:1.5em;
+}
+ 
+/*================================
+  HEADER STYLES
+==================================*/
+
+header{
+    position:fixed;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background:#ffffff;
+    top:0; left:0; right:0;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    padding:0px 7%;
+    z-index: 1000;
+}
+
+.logo img {
+    float:left;
+    width:150px;
+    height:auto;
+    margin-top:25px;
+    color:#333;
+}
+
+ul{
+    list-style-type:none;
+    float:right;  
+}
+
+
+ul li{
+    position:relative;
+    display:inline-block;
+      
+}
+
+ul li a{
+    font-size:20px;
+    padding:20px;
+    color:#333;
+    text-decoration:none;
+    border:1px solid transparent;
+    transition:0.65 ease;
+}
+
+ul li a:hover{
+    background:rgb(139, 37, 85);
+    color:#fff;
+}
+
+ul li a:active{
+    background-color:rgb(240,191,76);
+    color:#10962d;
+}
+
+ul li .active a{
+    background-color:royalblue;
+    color:#000;
+}
+
+
+/*================================
+  Hero Image styles
+==================================*/
+
+
+.column1{
+    background-image:url("../image/background2.jpg"); 
+    background-size: cover;
+    position:relative;
+    height:100vh;    
+
+}
+
+.background1{
+    background-image:url("../image/background1.jpg"); 
+    background-size: cover;
+    position:relative;
+    height:100vh;  
+
+}
+
+.back-section1{
+  width: 800px;
+  position:absolute;
+  top: 25%;
+  right: 40%;
+  font-size:20px;
+  border: 10px;
+  padding:50px 50px 50px 50px;
+  text-align:justify;
+
+}
+
+
+.section1{
+   
+    width: 800px;
+    position:absolute;
+    top: 25%;
+    right: 40%;
+    font-size:20px;
+    border: 10px;
+    padding:50px 50px 50px 50px;
+    background:none;
+    text-align:justify;
+   
+}
+
+/*================================
+  BODY styles
+==================================*/
+
+
+.column2{
+    background-size:cover;
+    position:relative;
+    height:75vh;
+
+}
+
+.section2{
+    width: 100%;
+    position:absolute;
+    text-align:center;
+    padding-top:90px;
+    font-size:20px;
+}
+
+.column3{
+    background-size:cover;
+    background:#782c43;
+    display:flex;
+    font-size:20px;
+    justify-content:space-evenly;
+    height:90vh;
+    padding:75px 50px 75px 50px;
+    flex-basis:50%;  
+    
+}
+
+.box-1{
+    flex:1;
+    width:50%;
+    text-align:justify;
+    padding-top:60px;
+    padding-left:20px;
+    
+}
+
+.box-2{
+    flex:1;
+    padding-right:20px;
+    
+}
+
+.column4{
+    background-size:cover;
+    background:#782c43;
+    display:flex;
+    font-size:20px;
+    justify-content:space-evenly;
+    height:90vh;
+    padding:75px 50px 75px 50px;
+    flex-basis:50%;   
+    
+}
+
+
+.box-3{
+    flex:1;
+    padding-left:20px;
+    
+}
+
+.box-4{
+    flex:1;
+    padding-right:20px; 
+    text-align:justify;
+    padding-top:90px;   
+    width:50px;
+   
+}
+    
+
+.column5{
+box-sizing: border-box;
+width:100%;
+padding-top:30px;
+line-height:2em;
+background-color:#3f3f3f;
+
+}
+
+.box-5{
+    float:left;
+    width:50%;
+    padding:10px;
+}
+
+.row:after{
+    content:"";
+    clear:both;
+    display:table;
+    width:50%;
+
+}
+
+/*================================
+  Button styles
+==================================*/
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+   
+  }
+  
+  .fa:hover {
+     opacity: 0.7;
+      
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+
+/*================================
+  BUTTON STYLES  END
+==================================*/
+
+
+
+.footer{
+    padding:10px;
+    text-align:center;
+    Color:white;
+    font-size:16px;
+    background-color:#3f3f3f;
+    position:sticky;
+}
+
+/*================================
+  ABOUT STYLE
+==================================*/
+
+
+.column2a{
+    background-size:cover;
+    position:relative;
+    height:75vh;
+    width:100%;
+
+}
+
+.section2a{
+    width: 100%;
+    position:absolute;
+    text-align:justify;
+    padding:50px 250px 50px 250px;
+    font-size:20px;
+   
+}
+
+/*================================
+  Contact STYLE
+==================================*/
+
+
+.column1c{
+    text-align:center;
+    background:#782c43;
+    position:relative;
+
+}
+
+.column1c-section1{
+    width:100%;
+    height:20vh;
+    font-size:40px;
+    margin-top:50px;
+    padding: 50px 50px 75px 50px
+
+}
+
+.column2c{
+    position:relative;
+}
+
+
+.column2c-section2{
+    height:20vh;
+    Margin-top:50px;
+    padding:40px 40px 75px 50px;
+    font-size:20px;
+    
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(187, 104, 104);
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #426d42;
+    color: rgb(10, 10, 10);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color:rgb(73, 66, 66);
+    padding: 20px;
+  }
+  
+  .col-1{
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-2{
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .col-1, .col-2, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+
+/*================================
+  Gallery STYLE
+==================================*/
+
+
+.images{
+  margin:20px;
+  padding:20px;
+}
+
+.slider{
+  width:800px;
+  height:600px;
+  background:url("../image/1.jpg");
+  margin:100px auto;
+  animation:slide 25s infinite;
+  background-repeat:no-repeat;
+
+}
+
+@keyframes slide{
+  25%{
+    background:url("../image/1.jpg");
+  }
+
+  50%{
+    background:url("../image/2.jpg");
+  }
+
+  75%{
+    background:url("../image/3.jpg");
+  }
+
+  100%{
+    background:url("../image/4.jpg");
+  }
+
+
+}
+
+.play{
+  width:500px;
+  inline-size:50vh;
+  margin:100px auto;
+  overflow:auto;
+
+}
+
+
